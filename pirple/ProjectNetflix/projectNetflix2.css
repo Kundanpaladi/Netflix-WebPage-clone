@@ -1,0 +1,127 @@
+/*for higer resolution*/
+@media only screen and (min-width:700px){
+.container2 
+{
+    width: 100%; 
+    background:black;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.tv1
+    {
+        position: relative;
+    }
+.tv1 video
+    {
+        position: absolute;
+        width: 325px;
+        height: 320px;
+        right: 66px;
+        top: 30px
+        
+    }
+.container3
+    {
+        width: 100%; 
+        background:black;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        display:flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+.container4
+    {
+       width: 100%; 
+       background:black;
+       padding-left: 50px;
+       padding-right: 50px;
+       text-align: center;
+       display:flex;
+       justify-content: space-around;
+       margin-bottom: 10px; 
+    }
+.tv2
+    {
+      position: relative;  
+    }
+.tv2 video
+    {
+        position: absolute;
+        width: 240px;
+        height: 230px;
+        bottom: 90px;
+        right: 80px
+        
+    }
+}
+
+
+/* for lower resolution*/
+@media only screen and (max-width:700px){
+.container2 
+{
+    width: 100%;
+    height: auto;
+    background:black;
+    padding-left: 2px;
+    padding-right: 20px;
+    text-align: center;
+    display:block;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.tv1
+    {
+        position: relative;
+    }
+.tv1 video
+    {
+        position: absolute;
+        width: 325px;
+        height: 320px;
+        right: 82px;
+        top: 30px
+        
+    }
+.container3
+    {
+        width: 100%;
+        height: auto;
+        background:black;
+        text-align: center;
+        display:block;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+.container4
+    {
+        width: 100%;
+        height: auto;
+        background:black;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        display:block;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+.tv2
+    {
+      position: relative;  
+    }
+.tv2 video
+    {
+        position: absolute;
+        width: 240px;
+        height: 230px;
+        bottom: 90px;
+        right: 125px
+        
+    }    
+}

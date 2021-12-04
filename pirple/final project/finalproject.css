@@ -1,0 +1,14 @@
+.logo{
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin:0px,10.7px;
+}
+.span1{
+    color: transparent;
+    display: inline-block;
+    font-weight: bold;
+}
+.span2{
+    font-size: 3.2rem;
+}
